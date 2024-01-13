@@ -68,7 +68,6 @@ public class RocketBlast extends ApplicationAdapter
 	@Override
 	public void render()
 	{
-		//sounds.play();
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false,900,400);
 		Gdx.gl.glClearColor(1, 1, 1, 1);
@@ -80,19 +79,19 @@ public class RocketBlast extends ApplicationAdapter
 			batch.draw(gameOverImg,(float)(Gdx.graphics.getWidth()/2)-300,(float)Gdx.graphics.getHeight()/3,600,600);
 			timeTop.setColor(Color.WHITE);
 			timeTop.getData().setScale(3,3);
-			timeTop.draw(batch,"Time "+time,(float)(Gdx.graphics.getWidth()/2)+50,(float)(Gdx.graphics.getHeight()/2)-100);
+			timeTop.draw(batch,"Time "+time,(float)(Gdx.graphics.getWidth()/2)+50,(float)(Gdx.graphics.getHeight()/2)-50);
 			scoreTop.setColor(Color.WHITE);
 			scoreTop.getData().setScale(3,3);
-			scoreTop.draw(batch,"Score "+score,(float)(Gdx.graphics.getWidth()/2)-150,(float)(Gdx.graphics.getHeight()/2)-100);
-			batch.draw(restart,(float)(Gdx.graphics.getWidth()/2)-30,(float)(Gdx.graphics.getHeight()/3)-70,60,60);
+			scoreTop.draw(batch,"Score "+score,(float)(Gdx.graphics.getWidth()/2)-150,(float)(Gdx.graphics.getHeight()/2)-50);
+			batch.draw(restart,(float)(Gdx.graphics.getWidth()/2),(float)(Gdx.graphics.getHeight()/3)-100,60,60);
 		}
 		batch.draw(rocket,rockX,(float)Gdx.graphics.getHeight()/3,100,100);
 		timeTop.setColor(Color.PINK);
 		timeTop.getData().setScale((float)2.2,(float)2.2);
-		timeTop.draw(batch,"Time "+time,200,Gdx.graphics.getHeight() - 100);
+		timeTop.draw(batch,"Time "+time,230,Gdx.graphics.getHeight() - 50);
 		scoreTop.setColor(Color.PINK);
 		scoreTop.getData().setScale((float)2.2,(float)2.2);
-		scoreTop.draw(batch,"Score "+score,0,Gdx.graphics.getHeight() - 100);
+		scoreTop.draw(batch,"Score "+score,30,Gdx.graphics.getHeight() - 50);
 
 		for(Rectangle fire: fires){
 			batch.draw(fire1,fire.x,fire.y,fire.width,fire.height);
