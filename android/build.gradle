@@ -1,7 +1,7 @@
 android {
     namespace "com.avc.rocketblast"
     buildToolsVersion "34.0.0"
-    compileSdkVersion 34
+    compileSdk 34
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -20,12 +20,13 @@ android {
     defaultConfig {
         applicationId "com.avc.rocketblast"
         minSdkVersion 14
-        targetSdkVersion 34
+        targetSdkVersion 31
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
     buildTypes {
         release {
+            debuggable false
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
