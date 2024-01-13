@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c65597-0a73-452e-9fa1-f9fc3f6bc451" name="Changes" comment="fix : updated version">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/release/output-metadata.json" afterDir="false" />
+    <list default="true" id="71c65597-0a73-452e-9fa1-f9fc3f6bc451" name="Changes" comment="Banner.png">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/aswan/Desktop/RocketBlast/android/build/outputs/apk/debug/android-debug.apk",
+    "last_opened_file_path": "C:/Users/aswan/Desktop/RocketBlast/screenshots",
     "project.structure.last.edited": "Suggestions",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -128,6 +127,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aswan\Desktop\RocketBlast\screenshots" />
+    </key>
+  </component>
   <component name="RunManager" selected="Android App.android">
     <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="RocketBlast.android.main" />
@@ -257,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705165199248</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Banner.png">
+      <created>1705166313458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705166313458</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,6 +277,7 @@
     <MESSAGE value="icon" />
     <MESSAGE value="fix : gitignore" />
     <MESSAGE value="fix : updated version" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix : updated version" />
+    <MESSAGE value="Banner.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="Banner.png" />
   </component>
 </project>
