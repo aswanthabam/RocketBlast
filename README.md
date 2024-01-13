@@ -1,10 +1,8 @@
-# Rocket Blast
-
 <div align='center'>
   <img width='500px' src='https://raw.githubusercontent.com/aswanthabam/RocketBlast/0fd74443f61a7da4007c4557cc151e37b215bfb4/screenshots/Banner.png'/>
 </div>
 
-#### Overview
+# Rocket Blast
 
 RocketBlast is a 2D Android game developed using the libGDX framework. In this game, players take control of a rocket navigating through a dynamic environment filled with coins and rocks. The primary objective is to skillfully maneuver the rocket, avoiding collisions with rocks while collecting coins to score points.
 
