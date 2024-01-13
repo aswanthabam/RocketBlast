@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c65597-0a73-452e-9fa1-f9fc3f6bc451" name="Changes" comment="fix : gitignore">
+    <list default="true" id="71c65597-0a73-452e-9fa1-f9fc3f6bc451" name="Changes" comment="fix : updated version">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/release/output-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705164909921</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix : updated version">
+      <created>1705165199248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705165199248</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -257,6 +265,7 @@
     <MESSAGE value="feat(icon) : Added icon" />
     <MESSAGE value="icon" />
     <MESSAGE value="fix : gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix : gitignore" />
+    <MESSAGE value="fix : updated version" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : updated version" />
   </component>
 </project>
