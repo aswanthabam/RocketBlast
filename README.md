@@ -1,6 +1,7 @@
 <div align='center'>
   <img width='500px' src='https://raw.githubusercontent.com/aswanthabam/RocketBlast/0fd74443f61a7da4007c4557cc151e37b215bfb4/screenshots/Banner.png'/>
 </div>
+<span><a href='https://github.com/aswanthabam/RocketBlast/releases'><img src='https://img.shields.io/badge/Download-3DDC84?style=for-the-badge&logo=download&logoColor=white'/></a> <img src="https://img.shields.io/badge/Android_Studio-FFDC84?style=for-the-badge&logo=android&logoColor=white"/></span>
 
 # Rocket Blast
 
